@@ -8,7 +8,7 @@ if "%ARCH%"=="32" (
 )
 set CONFIGURATION=Release
 set VSPROJ_DIR=%SRC_DIR%\visual\VS2010
-set VCTargetsPath="C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\"
+set VCTargetsPath=C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\v140
 dir %VCTargetsPath%
 set BUILD_DIR=%VSPROJ_DIR%\bin\%PLATFORM%_%CONFIGURATION%
 msbuild.exe /m ^
