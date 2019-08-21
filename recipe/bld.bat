@@ -8,6 +8,7 @@ if "%ARCH%"=="32" (
 )
 set CONFIGURATION=Release
 set VSPROJ_DIR=%SRC_DIR%\visual\VS2010
+set VCTargetsPath=%VCIDEInstallDir%VCTargets
 set BUILD_DIR=%VSPROJ_DIR%\bin\%PLATFORM%_%CONFIGURATION%
 msbuild.exe /m ^
     /p:Configuration=%CONFIGURATION% ^
