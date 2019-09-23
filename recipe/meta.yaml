@@ -77,9 +77,3 @@ about:
     derivative, called LZ4_HC, is available, trading customizable CPU time for
     compression ratio. LZ4 library is provided as open source software using a
     BSD license.
-
-extra:
-  recipe-maintainers:
-    - rmax
-    - wesm
-    - xhochy
